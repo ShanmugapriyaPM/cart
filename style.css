@@ -1,0 +1,500 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container
+{
+	width: 100%;
+	display: flex;
+}
+/*#cart
+{
+	cursor: pointer;
+}*/
+.logo
+{
+	width: 100%;
+	display: flex;
+	background-color: lightgray;
+	border: 1 px solid;
+}
+.logo h1
+{
+
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 150px;
+	
+}
+#cart-img
+{
+	margin-left: 600px;
+	font-size: 25px;
+	font-weight: bold;
+/*	margin-top: 20px;*/
+cursor: pointer;
+}
+.#cart-img span
+{
+	font-size: 15px;
+}
+/*.list h1
+{
+	margin-left: 150px;
+	font-size: 20px;
+	margin-top: 10px;
+}*/
+.cart-style
+{
+	position: fixed;
+	top: 0;
+	right: -100%;
+	border: 1px solid;
+	padding:10px;
+	background-color:lightgray;
+	
+}
+
+.cart-active
+{
+	right: 0;
+	transition: 0.3s;
+}
+
+.cart-style h2
+{
+	margin-top:30px;
+	text-align:center;
+}
+
+.cart-style button
+{
+	height: 50px;
+	width: 150px;
+	margin-top: 30px;
+	margin-left: 130px;
+	background-color:steelblue;
+	border:none;
+	border-radius:10px;
+	cursor: pointer;
+}
+
+.cart-style1
+{
+	display: flex;
+/*	width: 100%;*/
+	margin-right: 30px;
+	margin-top: 30px;
+
+}
+.cart-style1 h3
+{
+	margin-left: 10px;
+	margin-top: 32px;
+}
+.cart-style1 h4
+{
+	margin-left: 20px;
+	margin-top: 35px;
+}
+.cart-style1 input
+{
+	height: 30px;
+	width: 50px;
+	margin-top: 30px;
+	margin-left: 30px;
+	text-align: center;
+	background-color: tomato;
+}
+.cart-style1 img
+{
+	height: 100px;
+	width: 100px;
+	object-fit: pluggin;
+	text-decoration: none;
+	animation: none;
+
+}
+.cart-style1 i
+{
+	margin-top: 40px;
+	margin-left: 30px;
+/*	color: tomato;*/
+}
+.cart-style2
+{
+	display: flex;
+	margin-right: 40px;
+	margin-top: 20px;
+	
+
+}
+.cart-style2 h3
+{
+	margin-left: 10px;
+	margin-top: 32px;
+}
+.cart-style2 h4
+{
+	margin-left: 20px;
+	margin-top: 35px;
+}
+.cart-style2 input
+{
+	height: 30px;
+	width: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+	text-align: center;
+	background-color: tomato;
+}
+.cart-style2 img
+{
+	height: 100px;
+	width: 100px;
+	object-fit: pluggin;
+	text-decoration: none;
+	animation: none;
+}
+.cart-style2 i
+{
+	margin-top: 40px;
+	margin-left: 30px;
+/*	color: tomato;*/
+}
+
+.cart-style3
+{
+	display: flex;
+	margin-right: 30px;
+	margin-top: 20px;
+
+
+}
+.cart-style3 h3
+{
+	margin-left: 10px;
+	margin-top: 32px;
+}
+.cart-style3 h4
+{
+	margin-left: 20px;
+	margin-top: 35px;
+}
+.cart-style3 input
+{
+	height: 30px;
+	width: 50px;
+	margin-top: 30px;
+	margin-left: 30px;
+	text-align: center;
+	background-color: tomato;
+}
+.cart-style3 img
+{
+	height: 100px;
+	width: 100px;
+	object-fit: pluggin;
+	text-decoration: none;
+	animation: none;
+
+}
+.cart-style3 i
+{
+	margin-top: 40px;
+	margin-left: 30px;
+/*	color: steelblue;*/
+}
+#close
+{
+	position: absolute;	
+	top:0;
+	left: 0;
+}
+
+
+
+.mobile
+{
+	display: grid;
+	width: 80%;
+	margin-left: 100px;
+	margin-top: 100px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 20px;
+	text-align: center;
+
+}
+.cart
+{ 	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding: 15px;	
+}
+.mobile img:hover
+{
+	transition: 0.5s;
+	transform: scale(1.5);
+}
+
+.cart h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.cart h3
+{
+	margin-top: 10px;
+}
+.cart button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.cart1
+{ 	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding: 15px;
+/*	background-color: black;	*/
+}
+
+.cart1 h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.cart1 h3
+{
+	margin-top: 10px;
+}
+.cart1 button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.cart2
+{ 	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding: 15px;	
+}
+
+.cart2 h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.cart2 h3
+{
+	margin-top: 10px;
+}
+.cart2 button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.lap
+{ 	
+/*	height: 70px;*/
+	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding:15px;	
+}
+.lap img
+{
+	width: 100%;
+}
+
+.lap h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.lap h3
+{
+	margin-top: 10px;
+}
+.lap button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.lap1
+{ 	
+/*	height: 70px;*/
+	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding:15px;	
+}
+.lap1 img
+{
+	width: 100%;
+/*	margin-left: -50px;*/
+}
+.lap1 h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.lap1 h3
+{
+	margin-top: 10px;
+}
+.lap1 button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.lap2
+{ 	
+/*	height: 70px;*/
+	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding:15px;	
+}
+.lap2 img
+{
+	width: 100%;
+/*	margin-left: -50px;*/
+}
+.lap2 h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.lap2 h3
+{
+	margin-top: 10px;
+}
+.lap2 button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.tab
+{ 	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding: 15px;	
+}
+.tab img
+{
+	width: 100%;
+}
+
+.tab h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+/*.tab h3
+{
+	margin-top: 10px;
+}*/
+.tab button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.tab1
+{ 	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding: 15px;	
+}
+.tab1 img
+{
+	width: 80%;
+}
+
+.tab1 h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.tab1 h3
+{
+	margin-top: 10px;
+}
+.tab1 button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.tab2
+{ 	width: 60%;
+	display:grid;
+	border: 1PX solid;
+	padding: 15px;	
+}
+.tab2 img
+{
+	width: 80%;
+}
+
+.tab2 h2
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.tab2 h3
+{
+	margin-top: 10px;
+}
+.tab2 button
+{
+	height: 30px;
+	width: 70px;
+	margin-top: 10px;
+	background-color: steelblue;
+	text-align: center;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
